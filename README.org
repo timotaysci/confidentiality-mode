@@ -11,4 +11,17 @@
 
  Feedback and comments very much welcome.
 
- 
+** Installation
+
+Clone the repo and add the following to your config:
+
+#+begin_src elisp 
+
+(add-to-list 'load-path "/path/to/folder")
+
+
+(require 'confidentiality-mode)
+
+#+end_src
+
+
