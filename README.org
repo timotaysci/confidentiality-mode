@@ -1,3 +1,6 @@
+[[./conf-mode.jpg]]
+
+
 * Confidentiality mode
 
  This mode is written after several long train rides where I wanted to avoid people looking over my shoulder. I wasn't working on anything confidential but the thought of prying eyes made me feel uncomfortable. I mean, think of all the excellent ideas I may have jotted down that might have been stolen!
