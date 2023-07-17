@@ -7,6 +7,7 @@
 (defvar confidentiality-mode-display-type 'sentence
   "The type of text to display. Possible values are 'sentence' and 'paragraph'.")
 
+;;;###autoload
 (define-minor-mode confidentiality-mode
   "Randomize text in lines other than the current line."
   :init-value nil
