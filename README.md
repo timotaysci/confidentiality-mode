@@ -1,4 +1,4 @@
-[[./conf-mode.jpg]]
+!(./conf-mode.jpg)
 
 # Confidentiality mode
 
