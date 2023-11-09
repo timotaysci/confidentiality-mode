@@ -1,4 +1,4 @@
-!(./conf-mode.jpg)
+![shot](./conf-mode.jpg)
 
 # Confidentiality mode
 
