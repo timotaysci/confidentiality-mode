@@ -34,7 +34,8 @@
 ;; but the thought of prying eyes made me feel uncomfortable. I mean, think of
 ;;all the excellent ideas I may have jotted down that might have been stolen!
 
-;;This mode will randomise all text on the screen and only reveal the text in the line/sentence the cursor is on.
+;;This mode will randomise all text on the screen and only reveal the text in
+;;the line/sentence the cursor is on.
 
 ;;Type away you crazy horses.
 
@@ -50,7 +51,6 @@ Possible values are 'sentence' and
   "Randomize text in lines other than the current line."
   :init-value nil
   :lighter " Confidential"
-  :keymap confidentiality-mode-map
   (if confidentiality-mode
       (progn
         (add-hook 'post-command-hook 'confidentiality-mode-randomize-text)
@@ -125,6 +125,5 @@ Argument LINE-END is the end position of the line."
 
 (provide 'confidentiality-mode)
 
-(provide 'confidentiality-mode)
 
 ;;; confidentiality-mode.el ends here
