@@ -41,3 +41,12 @@ Simply envoke the mode to apply it to a buffer.
 
 `M-x confidentiality-mode RET`
 
+# A note on other options
+
+Several other options exist to hide text based within emacs however these are based on regular expressions to hide things like passwords or known sensitive information. 
+
+This mode simply obfuscates all text on the screen while retaining the structure of the file, making it easier to navigate and enables the use of the mode without specifying secrets anywhere else. 
+
+This is not a substitute for proper encryption or physical screen protection. 
+
+Do check out [hidepw](https://melpa.org/#/hidepw), [letterbox-mode]( https://melpa.org/#/letterbox-mode), [cloak-mode](https://melpa.org/#/cloak-mode) and [password-mode](https://melpa.org/#/password-mode) for more options. 

@@ -45,18 +45,18 @@
 
 (defvar confidentiality-mode-display-type 'sentence
   "The type of text to display.
-Possible values are 'sentence' and
-'paragraph'.")
+Possible values are 'sentence' and 'paragraph'.")
+
 (define-minor-mode confidentiality-mode
   "Randomize text in lines other than the current line."
   :init-value nil
   :lighter " Confidential"
   (if confidentiality-mode
       (progn
-        (add-hook 'post-command-hook 'confidentiality-mode-randomize-text)
-        (add-hook 'pre-command-hook 'confidentiality-mode-revert))
-    (remove-hook 'post-command-hook 'confidentiality-mode-randomize-text)
-    (remove-hook 'pre-command-hook 'confidentiality-mode-revert)
+        (add-hook 'post-command-hook #'confidentiality-mode-randomize-text)
+        (add-hook 'pre-command-hook #'confidentiality-mode-revert))
+    (remove-hook 'post-command-hook #'confidentiality-mode-randomize-text)
+    (remove-hook 'pre-command-hook #'confidentiality-mode-revert)
     (confidentiality-mode-revert)))
 
 (defun confidentiality-mode-randomize-text ()
