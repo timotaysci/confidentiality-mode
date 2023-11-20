@@ -5,7 +5,7 @@
 ;; Created: 2023
 
 ;; Copyright 2023 Timothy Johnson
-;; Package-Requires: ( (emacs "29.1") )
+;; Package-Requires: ( (emacs "27.1") )
 ;; Version: 1.0
 ;; Permission is hereby granted, free of charge, to any person
 ;; obtaining a copy of this software and associated documentation
