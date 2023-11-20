@@ -5,7 +5,7 @@
 ;; Created: 2023
 
 ;; Copyright 2023 Timothy Johnson
-;; Package-Requires: ( (emacs "27.1") )
+;; Package-Requires: ( (emacs "28.3") )
 ;; Version: 1.0
 ;; Permission is hereby granted, free of charge, to any person
 ;; obtaining a copy of this software and associated documentation
@@ -30,8 +30,8 @@
 
 ;;; Commentary:
 ;; This mode is written after several long train rides where I wanted to avoid
-;; people looking over my shoulder. I wasn't working on anything confidential
-;; but the thought of prying eyes made me feel uncomfortable. I mean, think of
+;; people looking over my shoulder.  I wasn't working on anything confidential
+;; but the thought of prying eyes made me feel uncomfortable.  I mean, think of
 ;;all the excellent ideas I may have jotted down that might have been stolen!
 
 ;;This mode will randomise all text on the screen and only reveal the text in
@@ -45,7 +45,7 @@
 
 (defvar confidentiality-mode-display-type 'sentence
   "The type of text to display.
-Possible values are \\='sentence' and \\='paragraph'.")
+Possible values are 'sentence' and 'paragraph'.")
 
 (define-minor-mode confidentiality-mode
   "Randomize text in lines other than the current line."
@@ -78,7 +78,7 @@ Possible values are \\='sentence' and \\='paragraph'.")
                              line-start line-end))))))))))
 
 (defun confidentiality-mode-get-text-to-randomize (line-start line-end)
-"Get the text to randomize. LINE-START is the start position of the line.
+"Get the text to randomize.  LINE-START is the start position of the line.
 Argument LINE-END is the end position of the line."
   (let ((text (buffer-substring-no-properties line-start line-end)))
     (cond ((eq confidentiality-mode-display-type 'sentence)
