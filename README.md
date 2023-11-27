@@ -49,4 +49,6 @@ This mode simply obfuscates all text on the screen while retaining the structure
 
 This is not a substitute for proper encryption or physical screen protection - consider your application and the data you wish to hide before using any solution.
 
-Do check out [hidepw](https://melpa.org/#/hidepw), [letterbox-mode]( https://melpa.org/#/letterbox-mode), [cloak-mode](https://melpa.org/#/cloak-mode) and [password-mode](https://melpa.org/#/password-mode) for more options. 
+Do check out [hidepw](https://melpa.org/#/hidepw), [letterbox-mode]( https://melpa.org/#/letterbox-mode), [cloak-mode](https://melpa.org/#/cloak-mode) and [password-mode](https://melpa.org/#/password-mode) for more options.
+
+Similarly, while mode like [Redacted-mode](https://github.com/bkaestner/redacted.el), will replace text on screen with glyphs with Unicode blocks, these options do not allow you to work on the file without toggling the mode on and off. Limiting functionality when actually working on a redacted file.
